@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M1XT Inc.</title>
+    <link rel="stylesheet" href="./Styles/Home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./Imges/Img/Ico-web.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="menu-opn" id="modal-menu">
+            <div class="menu-container">
+                <div class="menu-frame">
+                    <div class="menu-frmae-list" style="cursor: pointer;" onclick="location.href='./index.html'">
+                        <div class="bottom-line">
+                            <p>
+                                Home
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="menu-frmae-list" style="cursor: pointer;" onclick="location.href='./index.html'">
+                        <div class="bottom-line">
+                            <p>
+                                About
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="menu-frmae-list" style="cursor: pointer;" onclick="location.href='./Pages/Project.html'">
+                        <div class="bottom-line">
+                            <p>
+                                Projects
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="menu-frmae-list" style="cursor: pointer;" onclick="location.href='./index.html'">
+                        <div class="bottom-line">
+                            <p>
+                                Contacts
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-footer">
+                <div class="menu-footer-cont">
+                    <p>
+                        Copyright © 2024 - M1XT inc. All rights reserved.
+                    </p>
+
+                    <p>
+                        Made by: MarT14X
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="header-container">
+            <div class="Logo" id="Logo" style="cursor: pointer;" onclick="location.href='./index.html'">
+                <p>
+                    M1XT
+                </p>
+            </div>
+
+            <div class="menu" id="open-modal" style="cursor: pointer;">
+                <div class="menu-name" id="Menu-name">
+                    <p>
+                        Menu
+                    </p>
+                </div>
+
+                <div class="menu-dots">
+                    <div class="menu-dot"></div>
+                    <div class="menu-dot"></div>
+                    <div class="menu-dot"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="Hero-Section">
+            <section class="hero anim" style="cursor: default;">
+                <h1>
+                    <span class="First-word anim" role="text" id="first-hero">
+                        new&nbsp;
+                    </span>
+
+                    <span role="text" class="First-word anim">
+                        chapter&nbsp;
+                    </span>
+
+                    <span role="text" class="First-word anim">
+                        in&nbsp;
+                    </span>
+
+                    <br>
+
+                    <span id="fade-line" class="First-word anim" role="text">
+                        history
+                    </span>
+
+                    <span role="text" class="First-word anim">
+                        &nbsp;of&nbsp;
+                    </span>
+
+                    <span role="text" class="First-word anim" id="last-hero">
+                        M1XT.
+                    </span>
+                </h1>
+            </section>
+
+
+            <div class="und-hero-container anim">
+                <div class="und-hero-dis">
+                    <p>
+                        Scroll down and we'll show you what we're capable of.
+                    </p>
+                </div>
+
+                <div class="emojie">
+                    <p>
+                        <font color="#F9CEEE">(˶ᵔ ᵕ ᵔ˶)</font>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="Vid-Container">
+            <div id="scrolly-video"></div>
+        </div>
+
+        <div class="Vid-discriptio">
+            <div class="dis-container">
+                <div class="min-container">
+                    <div class="container-name">
+                        <h3>
+                            Versatility
+                        </h3>
+                    </div>
+
+                    <div class="container-dis">
+                        <p>
+                            We will help you turn <font color="#FFFFFF">your idea into reality.</font> Innovative
+                            technologies require innovative
+                            solutions and we are able to cope with them, only modern programs such as : <font
+                                color="#FFFFFF">Blender, Figma,
+                                PS, AE, PR and other powerful editors.</font>
+                        </p>
+                    </div>
+
+                    <div class="container-logos"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+<script src="./Scripts/Main.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/scrolly-video@latest/dist/scrolly-video.js"></script>
+<script src="./Scripts/Modal-menu.js"></script>
+<script type="text/javascript">
+    new ScrollyVideo({
+        frameThreshold: "0.09",
+        transitionSpeed: "50",
+        scrollyVideoContainer: "scrolly-video",
+        src: "./Imges/Vid/GT3_1.mp4"
+    });
+</script>
+
+</html>
